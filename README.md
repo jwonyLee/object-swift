@@ -1,4 +1,4 @@
-# object-swift
+# objects-swift
  
 [오브젝트: 코드로 이해하는 객체지향 설계, 조영호 지음](https://wikibook.co.kr/object/)
 
