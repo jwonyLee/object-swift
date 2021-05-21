@@ -18,6 +18,7 @@
 		8707BFBB2657AC62004B082E /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBA2657AC62004B082E /* Money.swift */; };
 		8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBC2657BA3E004B082E /* Reservation.swift */; };
 		8707BFBF2657BB22004B082E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBE2657BB22004B082E /* Movie.swift */; };
+		8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC02657BC81004B082E /* DiscountPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		8707BFBA2657AC62004B082E /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		8707BFBC2657BA3E004B082E /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 		8707BFBE2657BB22004B082E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8707BFC02657BC81004B082E /* DiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				8707BFBA2657AC62004B082E /* Money.swift */,
 				8707BFBC2657BA3E004B082E /* Reservation.swift */,
 				8707BFBE2657BB22004B082E /* Movie.swift */,
+				8707BFC02657BC81004B082E /* DiscountPolicy.swift */,
 			);
 			path = "chapter02-movie";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
+				8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */,
 				8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */,
 				8707BFBF2657BB22004B082E /* Movie.swift in Sources */,
 				8707BFB3265799DD004B082E /* TicketSeller.swift in Sources */,
