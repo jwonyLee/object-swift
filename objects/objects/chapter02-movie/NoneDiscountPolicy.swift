@@ -11,9 +11,7 @@ import Foundation
  할인되지 않는 정책
  */
 class NoneDiscountPolicy: DiscountPolicy {
-    var conditions: [DiscountCondition] = []
-
-    func getDiscountAmount(screening: Screening) -> Money {
+    func calculateDiscountAmount(screening: Screening) -> Money {
         return Money.zero
     }
 }

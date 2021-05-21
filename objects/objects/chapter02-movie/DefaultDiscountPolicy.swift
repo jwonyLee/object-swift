@@ -23,6 +23,6 @@ public class DefaultDiscountPolicy: DiscountPolicy {
     }
 
     func getDiscountAmount(screening: Screening) -> Money {
-        preconditionFailure("This method must be overridden") 
+        preconditionFailure("This method must be overridden")
     }
 }
