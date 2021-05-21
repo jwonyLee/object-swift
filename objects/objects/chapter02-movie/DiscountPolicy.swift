@@ -13,8 +13,6 @@ import Foundation
 protocol DiscountPolicy {
     var conditions: [DiscountCondition] { get set }
 
-    init(conditions: [DiscountCondition])
-
     func calculateDiscountAmount(screening: Screening) -> Money
 
     func getDiscountAmount(screening: Screening) -> Money
