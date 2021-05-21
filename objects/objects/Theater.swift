@@ -24,14 +24,6 @@ class Theater {
      - 관람객의 가방 안에 초대장이 없으면: 관람객의 가방에서 티켓 금액만큼 차감, 매표소에 금액만큼 증감, 관람객의 가방 안에 티켓을 넣어준다.
      */
     func enter(audience: Audience) {
-        if audience.getBag().hasInvitation() {
-            let ticket: Ticket = ticketSeller.getTicketOffice().getTicket()
-            audience.getBag().setTicket(ticket)
-        } else {
-            let ticket: Ticket = ticketSeller.getTicketOffice().getTicket()
-            audience.getBag().minusAmount(ticket.getFee())
-            ticketSeller.getTicketOffice().plusAmount(ticket.getFee())
-            audience.getBag().setTicket(ticket)
-        }
+        ticketSeller.sellTo(audience: audience)
     }
 }
