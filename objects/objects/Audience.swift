@@ -13,12 +13,20 @@ import Foundation
  */
 class Audience {
     private let bag: Bag
-
+    
     init(bag: Bag) {
         self.bag = bag
     }
-
-    func getBag() -> Bag {
-        return bag
+    
+    /// 티켓을 구매하는 메서드
+    func buy(ticket: Ticket) -> Double {
+        if bag.hasInvitation() {
+            bag.setTicket(ticket)
+            return 0
+        } else {
+            bag.setTicket(ticket)
+            bag.minusAmount(ticket.getFee())
+            return ticket.getFee()
+        }
     }
 }

@@ -13,20 +13,12 @@ import Foundation
  */
 class TicketSeller {
     private var ticketOffice: TicketOffice
-
+    
     init(ticketOffice: TicketOffice) {
         self.ticketOffice = ticketOffice
     }
-
+    
     func sellTo(audience: Audience) {
-        if audience.getBag().hasInvitation() {
-            let ticket: Ticket = ticketOffice.getTicket()
-            audience.getBag().setTicket(ticket)
-        } else {
-            let ticket: Ticket = ticketOffice.getTicket()
-            audience.getBag().minusAmount(ticket.getFee())
-            ticketOffice.plusAmount(ticket.getFee())
-            audience.getBag().setTicket(ticket)
-        }
+        ticketOffice.plusAmount(audience.buy(ticket: ticketOffice.getTicket()))
     }
 }
