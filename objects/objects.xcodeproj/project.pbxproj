@@ -27,6 +27,7 @@
 		8707BFCD2657C6B2004B082E /* AmountDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */; };
 		8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */; };
 		8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */; };
+		8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoneDiscountPolicy.swift; sourceTree = "<group>"; };
+		8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDiscountPolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */,
 				8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */,
 				8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */,
+				8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */,
 			);
 			path = "chapter02-movie";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				8707BFCB2657C42F004B082E /* Extension+.swift in Sources */,
 				8707BFCD2657C6B2004B082E /* AmountDiscountPolicy.swift in Sources */,
 				8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */,
+				8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */,
 				8707BFC52657C099004B082E /* SequenceCondition.swift in Sources */,
 				8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */,
 				8707BFBF2657BB22004B082E /* Movie.swift in Sources */,
