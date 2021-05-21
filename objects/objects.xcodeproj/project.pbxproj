@@ -25,6 +25,7 @@
 		8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC82657C3E1004B082E /* DayOfWeek.swift */; };
 		8707BFCB2657C42F004B082E /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCA2657C42F004B082E /* Extension+.swift */; };
 		8707BFCD2657C6B2004B082E /* AmountDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */; };
+		8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		8707BFC82657C3E1004B082E /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
 		8707BFCA2657C42F004B082E /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
 		8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDiscountPolicy.swift; sourceTree = "<group>"; };
+		8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				8707BFC82657C3E1004B082E /* DayOfWeek.swift */,
 				8707BFCA2657C42F004B082E /* Extension+.swift */,
 				8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */,
+				8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */,
 			);
 			path = "chapter02-movie";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				8707BFB92657A9B7004B082E /* Screening.swift in Sources */,
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
+				8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */,
 				8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */,
 				8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
