@@ -38,4 +38,20 @@ class Screening {
     func getMovieFee() -> Money {
         return movie.getFee()
     }
+
+    /**
+     영화를 예매한 후 예매 정보를 반환하는 메서드
+     - customer: 예매자
+     - audienceCount: 인원수
+     */
+    func reserve(customer: Customer, audienceCount: Int) -> Reservation {
+        return Reservation(customer: customer,
+                           screening: self,
+                           fee: calculateFee(audienceCount),
+                           audienceCount: audienceCount)
+    }
+
+    private func calculateFee(_ audienceCount: Int) -> Money {
+        return movie.calculateMovieFee(self).times(audienceCount)
+    }
 }
