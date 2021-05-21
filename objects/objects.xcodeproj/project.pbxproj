@@ -11,6 +11,7 @@
 		8707BFA926579388004B082E /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFA826579388004B082E /* Invitation.swift */; };
 		8707BFAB265794A8004B082E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAA265794A8004B082E /* Ticket.swift */; };
 		8707BFAD26579541004B082E /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAC26579541004B082E /* Bag.swift */; };
+		8707BFAF26579732004B082E /* Audience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAE26579732004B082E /* Audience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		8707BFA826579388004B082E /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
 		8707BFAA265794A8004B082E /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		8707BFAC26579541004B082E /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		8707BFAE26579732004B082E /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				8707BFA826579388004B082E /* Invitation.swift */,
 				8707BFAA265794A8004B082E /* Ticket.swift */,
 				8707BFAC26579541004B082E /* Bag.swift */,
+				8707BFAE26579732004B082E /* Audience.swift */,
 			);
 			path = objects;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
+				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
 				8707BFA2265792EE004B082E /* main.swift in Sources */,
 			);

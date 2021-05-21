@@ -13,11 +13,11 @@ import Foundation
  */
 class Ticket {
     private var fee: Double
-
+    
     init(fee: Double) {
         self.fee = fee
     }
-
+    
     func getFee() -> Double {
         return fee
     }
