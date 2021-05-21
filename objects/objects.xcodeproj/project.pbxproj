@@ -15,6 +15,7 @@
 		8707BFB3265799DD004B082E /* TicketSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB2265799DD004B082E /* TicketSeller.swift */; };
 		8707BFB526579A42004B082E /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB426579A42004B082E /* Theater.swift */; };
 		8707BFB92657A9B7004B082E /* Screening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB82657A9B7004B082E /* Screening.swift */; };
+		8707BFBB2657AC62004B082E /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBA2657AC62004B082E /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		8707BFB2265799DD004B082E /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
 		8707BFB426579A42004B082E /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
 		8707BFB82657A9B7004B082E /* Screening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening.swift; sourceTree = "<group>"; };
+		8707BFBA2657AC62004B082E /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				8707BFB82657A9B7004B082E /* Screening.swift */,
+				8707BFBA2657AC62004B082E /* Money.swift */,
 			);
 			path = "chapter02-movie";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				8707BFB92657A9B7004B082E /* Screening.swift in Sources */,
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
+				8707BFBB2657AC62004B082E /* Money.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
