@@ -14,6 +14,7 @@
 		8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB0265797BC004B082E /* TicketOffice.swift */; };
 		8707BFB3265799DD004B082E /* TicketSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB2265799DD004B082E /* TicketSeller.swift */; };
 		8707BFB526579A42004B082E /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB426579A42004B082E /* Theater.swift */; };
+		8707BFB92657A9B7004B082E /* Screening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB82657A9B7004B082E /* Screening.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		8707BFB0265797BC004B082E /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
 		8707BFB2265799DD004B082E /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
 		8707BFB426579A42004B082E /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
+		8707BFB82657A9B7004B082E /* Screening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
+				8707BFB72657A84F004B082E /* chapter02-movie */,
 				8707BFB62657A7DE004B082E /* chapter01-ticket */,
 			);
 			path = objects;
@@ -86,6 +89,14 @@
 				8707BFB426579A42004B082E /* Theater.swift */,
 			);
 			path = "chapter01-ticket";
+			sourceTree = "<group>";
+		};
+		8707BFB72657A84F004B082E /* chapter02-movie */ = {
+			isa = PBXGroup;
+			children = (
+				8707BFB82657A9B7004B082E /* Screening.swift */,
+			);
+			path = "chapter02-movie";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8707BFB92657A9B7004B082E /* Screening.swift in Sources */,
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
