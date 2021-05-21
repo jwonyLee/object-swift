@@ -20,13 +20,6 @@ class Audience {
     
     /// 티켓을 구매하는 메서드
     func buy(ticket: Ticket) -> Double {
-        if bag.hasInvitation() {
-            bag.setTicket(ticket)
-            return 0
-        } else {
-            bag.setTicket(ticket)
-            bag.minusAmount(ticket.getFee())
-            return ticket.getFee()
-        }
+        return bag.hold(ticket: ticket)
     }
 }
