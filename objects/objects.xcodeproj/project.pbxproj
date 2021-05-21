@@ -12,6 +12,7 @@
 		8707BFAB265794A8004B082E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAA265794A8004B082E /* Ticket.swift */; };
 		8707BFAD26579541004B082E /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAC26579541004B082E /* Bag.swift */; };
 		8707BFAF26579732004B082E /* Audience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAE26579732004B082E /* Audience.swift */; };
+		8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB0265797BC004B082E /* TicketOffice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8707BFAA265794A8004B082E /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		8707BFAC26579541004B082E /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		8707BFAE26579732004B082E /* Audience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audience.swift; sourceTree = "<group>"; };
+		8707BFB0265797BC004B082E /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8707BFAA265794A8004B082E /* Ticket.swift */,
 				8707BFAC26579541004B082E /* Bag.swift */,
 				8707BFAE26579732004B082E /* Audience.swift */,
+				8707BFB0265797BC004B082E /* TicketOffice.swift */,
 			);
 			path = objects;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
 				8707BFA2265792EE004B082E /* main.swift in Sources */,
+				8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
