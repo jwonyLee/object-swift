@@ -21,6 +21,7 @@
 		8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC02657BC81004B082E /* DiscountPolicy.swift */; };
 		8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC22657BFBC004B082E /* DiscountCondition.swift */; };
 		8707BFC52657C099004B082E /* SequenceCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC42657C099004B082E /* SequenceCondition.swift */; };
+		8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC62657C129004B082E /* PeriodCondition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		8707BFC02657BC81004B082E /* DiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFC22657BFBC004B082E /* DiscountCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition.swift; sourceTree = "<group>"; };
 		8707BFC42657C099004B082E /* SequenceCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceCondition.swift; sourceTree = "<group>"; };
+		8707BFC62657C129004B082E /* PeriodCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodCondition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				8707BFC02657BC81004B082E /* DiscountPolicy.swift */,
 				8707BFC22657BFBC004B082E /* DiscountCondition.swift */,
 				8707BFC42657C099004B082E /* SequenceCondition.swift */,
+				8707BFC62657C129004B082E /* PeriodCondition.swift */,
 			);
 			path = "chapter02-movie";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				8707BFBB2657AC62004B082E /* Money.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
+				8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
 				8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */,
 				8707BFC52657C099004B082E /* SequenceCondition.swift in Sources */,
