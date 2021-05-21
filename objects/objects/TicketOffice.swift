@@ -21,16 +21,15 @@ class TicketOffice {
         self.tickets = tickets
     }
 
-    /// 티켓을 판매하는 메서드
-    func getTicket() -> Ticket {
+    func sellTicketTo(_ audience: Audience) {
+        plusAmount(audience.buy(ticket: getTicket()))
+    }
+
+    private func getTicket() -> Ticket {
         return tickets.removeFirst()
     }
 
-    func minusAmount(_ amount: Double) {
-        self.amount -= amount
-    }
-
-    func plusAmount(_ amount: Double) {
+    private func plusAmount(_ amount: Double) {
         self.amount += amount
     }
 }
