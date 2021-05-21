@@ -52,6 +52,6 @@ class Screening {
     }
 
     private func calculateFee(_ audienceCount: Int) -> Money {
-        return movie.calculateMovieFee(self).times(audienceCount)
+        return movie.calculateMovieFee(screening: self).times(percent: Double(audienceCount))
     }
 }
