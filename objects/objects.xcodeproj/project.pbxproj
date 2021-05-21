@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8707BFA2265792EE004B082E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFA1265792EE004B082E /* main.swift */; };
 		8707BFA926579388004B082E /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFA826579388004B082E /* Invitation.swift */; };
 		8707BFAB265794A8004B082E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAA265794A8004B082E /* Ticket.swift */; };
 		8707BFAD26579541004B082E /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFAC26579541004B082E /* Bag.swift */; };
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		8707BF9E265792EE004B082E /* objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objects; sourceTree = BUILT_PRODUCTS_DIR; };
-		8707BFA1265792EE004B082E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8707BFA826579388004B082E /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
 		8707BFAA265794A8004B082E /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		8707BFAC26579541004B082E /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
@@ -71,7 +69,14 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
-				8707BFA1265792EE004B082E /* main.swift */,
+				8707BFB62657A7DE004B082E /* chapter01-ticket */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		8707BFB62657A7DE004B082E /* chapter01-ticket */ = {
+			isa = PBXGroup;
+			children = (
 				8707BFA826579388004B082E /* Invitation.swift */,
 				8707BFAA265794A8004B082E /* Ticket.swift */,
 				8707BFAC26579541004B082E /* Bag.swift */,
@@ -80,7 +85,7 @@
 				8707BFB2265799DD004B082E /* TicketSeller.swift */,
 				8707BFB426579A42004B082E /* Theater.swift */,
 			);
-			path = objects;
+			path = "chapter01-ticket";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +149,6 @@
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
-				8707BFA2265792EE004B082E /* main.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
 				8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */,
 				8707BFB3265799DD004B082E /* TicketSeller.swift in Sources */,
