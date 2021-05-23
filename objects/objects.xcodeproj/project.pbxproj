@@ -14,6 +14,20 @@
 		8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB0265797BC004B082E /* TicketOffice.swift */; };
 		8707BFB3265799DD004B082E /* TicketSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB2265799DD004B082E /* TicketSeller.swift */; };
 		8707BFB526579A42004B082E /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB426579A42004B082E /* Theater.swift */; };
+		8707BFB92657A9B7004B082E /* Screening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFB82657A9B7004B082E /* Screening.swift */; };
+		8707BFBB2657AC62004B082E /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBA2657AC62004B082E /* Money.swift */; };
+		8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBC2657BA3E004B082E /* Reservation.swift */; };
+		8707BFBF2657BB22004B082E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFBE2657BB22004B082E /* Movie.swift */; };
+		8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC02657BC81004B082E /* DiscountPolicy.swift */; };
+		8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC22657BFBC004B082E /* DiscountCondition.swift */; };
+		8707BFC52657C099004B082E /* SequenceCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC42657C099004B082E /* SequenceCondition.swift */; };
+		8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC62657C129004B082E /* PeriodCondition.swift */; };
+		8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFC82657C3E1004B082E /* DayOfWeek.swift */; };
+		8707BFCB2657C42F004B082E /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCA2657C42F004B082E /* Extension+.swift */; };
+		8707BFCD2657C6B2004B082E /* AmountDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */; };
+		8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */; };
+		8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */; };
+		8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +51,20 @@
 		8707BFB0265797BC004B082E /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
 		8707BFB2265799DD004B082E /* TicketSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSeller.swift; sourceTree = "<group>"; };
 		8707BFB426579A42004B082E /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
+		8707BFB82657A9B7004B082E /* Screening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening.swift; sourceTree = "<group>"; };
+		8707BFBA2657AC62004B082E /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		8707BFBC2657BA3E004B082E /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		8707BFBE2657BB22004B082E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8707BFC02657BC81004B082E /* DiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPolicy.swift; sourceTree = "<group>"; };
+		8707BFC22657BFBC004B082E /* DiscountCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition.swift; sourceTree = "<group>"; };
+		8707BFC42657C099004B082E /* SequenceCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceCondition.swift; sourceTree = "<group>"; };
+		8707BFC62657C129004B082E /* PeriodCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodCondition.swift; sourceTree = "<group>"; };
+		8707BFC82657C3E1004B082E /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
+		8707BFCA2657C42F004B082E /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
+		8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDiscountPolicy.swift; sourceTree = "<group>"; };
+		8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
+		8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoneDiscountPolicy.swift; sourceTree = "<group>"; };
+		8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDiscountPolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +97,7 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
+				8707BFB72657A84F004B082E /* chapter02-movie */,
 				8707BFB62657A7DE004B082E /* chapter01-ticket */,
 			);
 			path = objects;
@@ -86,6 +115,27 @@
 				8707BFB426579A42004B082E /* Theater.swift */,
 			);
 			path = "chapter01-ticket";
+			sourceTree = "<group>";
+		};
+		8707BFB72657A84F004B082E /* chapter02-movie */ = {
+			isa = PBXGroup;
+			children = (
+				8707BFB82657A9B7004B082E /* Screening.swift */,
+				8707BFBA2657AC62004B082E /* Money.swift */,
+				8707BFBC2657BA3E004B082E /* Reservation.swift */,
+				8707BFBE2657BB22004B082E /* Movie.swift */,
+				8707BFC02657BC81004B082E /* DiscountPolicy.swift */,
+				8707BFC22657BFBC004B082E /* DiscountCondition.swift */,
+				8707BFC42657C099004B082E /* SequenceCondition.swift */,
+				8707BFC62657C129004B082E /* PeriodCondition.swift */,
+				8707BFC82657C3E1004B082E /* DayOfWeek.swift */,
+				8707BFCA2657C42F004B082E /* Extension+.swift */,
+				8707BFCC2657C6B2004B082E /* AmountDiscountPolicy.swift */,
+				8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */,
+				8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */,
+				8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */,
+			);
+			path = "chapter02-movie";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,12 +195,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */,
+				8707BFB92657A9B7004B082E /* Screening.swift in Sources */,
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
+				8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */,
+				8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */,
+				8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
+				8707BFBB2657AC62004B082E /* Money.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
+				8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */,
+				8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
+				8707BFCB2657C42F004B082E /* Extension+.swift in Sources */,
+				8707BFCD2657C6B2004B082E /* AmountDiscountPolicy.swift in Sources */,
+				8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */,
+				8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */,
+				8707BFC52657C099004B082E /* SequenceCondition.swift in Sources */,
 				8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */,
+				8707BFBF2657BB22004B082E /* Movie.swift in Sources */,
 				8707BFB3265799DD004B082E /* TicketSeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
