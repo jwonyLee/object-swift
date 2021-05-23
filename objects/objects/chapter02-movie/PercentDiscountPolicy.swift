@@ -11,7 +11,7 @@ import Foundation
  비율 할인 정책
  - percent: 할인 비율
  */
-class PercentDiscountPolicy: DiscountPolicy {
+class PercentDiscountPolicy: DefaultDiscountPolicy {
     private var percent: Double
     var conditions: [DiscountCondition] = []
 
@@ -20,9 +20,7 @@ class PercentDiscountPolicy: DiscountPolicy {
         self.conditions = conditions
     }
 
-    func getDiscountAmount(screening: Screening) -> Money {
+    override func getDiscountAmount(screening: Screening) -> Money {
         return screening.getMovieFee().times(percent: percent)
     }
-
-
 }

@@ -11,7 +11,7 @@ import Foundation
  고정 할인 정책
  - discountAmount: 할인 요금
  */
-class AmountDiscountPolicy: DiscountPolicy {
+class AmountDiscountPolicy: DefaultDiscountPolicy {
     private var discountAmount: Money
     var conditions: [DiscountCondition] = []
 
@@ -20,7 +20,7 @@ class AmountDiscountPolicy: DiscountPolicy {
         self.conditions = conditions
     }
 
-    func getDiscountAmount(screening: Screening) -> Money {
+    override func getDiscountAmount(screening: Screening) -> Money {
         return discountAmount
     }
 }
