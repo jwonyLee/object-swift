@@ -18,7 +18,7 @@ class Movie {
     private let title: String
     private let runningTime: DateInterval
     private let fee: Money
-    private let discountPolicy: DiscountPolicy
+    private var discountPolicy: DiscountPolicy
 
     init(title: String, runningTime: DateInterval, fee: Money, discountPolicy: DiscountPolicy) {
         self.title = title
@@ -34,5 +34,9 @@ class Movie {
     /// discountPolicy에 calculateDiscountAmount 메시지를 전송해 할인 요금을 반환받아, 할인 요금을 차감한다.
     func calculateMovieFee(screening: Screening) -> Money {
         return fee.minus(amount: discountPolicy.calculateDiscountAmount(screening: screening))
+    }
+
+    func changeDiscountPolicy(_ discountPolicy: DiscountPolicy) {
+        self.discountPolicy = discountPolicy
     }
 }
