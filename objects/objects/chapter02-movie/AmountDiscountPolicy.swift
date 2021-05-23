@@ -13,7 +13,7 @@ import Foundation
  */
 class AmountDiscountPolicy: DefaultDiscountPolicy {
     private var discountAmount: Money
-    var conditions: [DiscountCondition] = []
+    private var conditions: [DiscountCondition] = []
 
     init(discountAmount: Money, conditions: [DiscountCondition]) {
         self.discountAmount = discountAmount

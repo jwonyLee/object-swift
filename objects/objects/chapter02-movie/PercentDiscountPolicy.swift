@@ -13,7 +13,7 @@ import Foundation
  */
 class PercentDiscountPolicy: DefaultDiscountPolicy {
     private var percent: Double
-    var conditions: [DiscountCondition] = []
+    private var conditions: [DiscountCondition] = []
 
     init(percent: Double, conditions: [DiscountCondition]) {
         self.percent = percent
