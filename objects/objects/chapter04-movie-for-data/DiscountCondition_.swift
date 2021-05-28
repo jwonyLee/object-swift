@@ -7,6 +7,10 @@
 
 import Foundation
 
+enum DiscountConditionError: Error {
+    case IllegalArgumentException
+}
+
 /**
  할인 조건: chapter02.DiscountCondition과 겹치므로 이름에 언더바를 덧붙임
  - type: 할인 조건 타입
@@ -36,39 +40,19 @@ class DiscountCondition_ {
         return type
     }
 
-    func setType(_ type: DiscountConditionType) {
-        self.type = type
+    func isDiscountable(dayOfWeek: DayOfWeek, time: Date) throws -> Bool {
+        if type != DiscountConditionType.period {
+            throw DiscountConditionError.IllegalArgumentException
+        }
+
+        return self.dayOfWeek == dayOfWeek && self.startTime <= time && self.endTime >= time
     }
 
-    func getSequence() -> Int {
-        return sequence
-    }
+    func isDiscountable(sequence: Int) throws -> Bool {
+        if type != DiscountConditionType.sequence {
+            throw DiscountConditionError.IllegalArgumentException
+        }
 
-    func setSequence(_ sequence: Int) {
-        self.sequence = sequence
-    }
-
-    func getDayOfWeek() -> DayOfWeek {
-        return dayOfWeek
-    }
-
-    func setDayOfWeek(_ dayOfWeek: DayOfWeek) {
-        self.dayOfWeek = dayOfWeek
-    }
-
-    func getStartTime() -> Date {
-        return startTime
-    }
-
-    func setStartTime(_ startTime: Date) {
-        self.startTime = startTime
-    }
-
-    func getEndTime() -> Date {
-        return endTime
-    }
-
-    func setEndTime(_ endTime: Date) {
-        self.endTime = endTime
+        return self.sequence == sequence
     }
 }
