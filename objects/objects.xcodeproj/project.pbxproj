@@ -37,6 +37,7 @@
 		873827DE2660E056008684D8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DD2660E056008684D8 /* Customer.swift */; };
 		873827E02660E146008684D8 /* ReservationAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DF2660E146008684D8 /* ReservationAgency.swift */; };
 		873827E22660E7A8008684D8 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E12660E7A8008684D8 /* Rectangle.swift */; };
+		873827E62660FE52008684D8 /* AnyClass_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E52660FE52008684D8 /* AnyClass_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,7 @@
 		873827DD2660E056008684D8 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		873827DF2660E146008684D8 /* ReservationAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationAgency.swift; sourceTree = "<group>"; };
 		873827E12660E7A8008684D8 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		873827E52660FE52008684D8 /* AnyClass_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyClass_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				873827DD2660E056008684D8 /* Customer.swift */,
 				873827DF2660E146008684D8 /* ReservationAgency.swift */,
 				873827E12660E7A8008684D8 /* Rectangle.swift */,
+				873827E52660FE52008684D8 /* AnyClass_.swift */,
 			);
 			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */,
 				873827E22660E7A8008684D8 /* Rectangle.swift in Sources */,
 				873827D32660DA98008684D8 /* MovieType.swift in Sources */,
+				873827E62660FE52008684D8 /* AnyClass_.swift in Sources */,
 				873827DE2660E056008684D8 /* Customer.swift in Sources */,
 				8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
