@@ -34,6 +34,7 @@
 		873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D72660DCE3008684D8 /* DiscountCondition_.swift */; };
 		873827DA2660DE8C008684D8 /* Screening_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D92660DE8C008684D8 /* Screening_.swift */; };
 		873827DC2660DF6A008684D8 /* Reservation_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DB2660DF6A008684D8 /* Reservation_.swift */; };
+		873827DE2660E056008684D8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DD2660E056008684D8 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,7 @@
 		873827D72660DCE3008684D8 /* DiscountCondition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition_.swift; sourceTree = "<group>"; };
 		873827D92660DE8C008684D8 /* Screening_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening_.swift; sourceTree = "<group>"; };
 		873827DB2660DF6A008684D8 /* Reservation_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation_.swift; sourceTree = "<group>"; };
+		873827DD2660E056008684D8 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				873827D72660DCE3008684D8 /* DiscountCondition_.swift */,
 				873827D92660DE8C008684D8 /* Screening_.swift */,
 				873827DB2660DF6A008684D8 /* Reservation_.swift */,
+				873827DD2660E056008684D8 /* Customer.swift */,
 			);
 			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */,
 				873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */,
 				873827D32660DA98008684D8 /* MovieType.swift in Sources */,
+				873827DE2660E056008684D8 /* Customer.swift in Sources */,
 				8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
 				8707BFCB2657C42F004B082E /* Extension+.swift in Sources */,
