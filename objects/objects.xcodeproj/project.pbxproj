@@ -32,6 +32,7 @@
 		873827D32660DA98008684D8 /* MovieType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D22660DA98008684D8 /* MovieType.swift */; };
 		873827D52660DC85008684D8 /* DiscountConditionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D42660DC85008684D8 /* DiscountConditionType.swift */; };
 		873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D72660DCE3008684D8 /* DiscountCondition_.swift */; };
+		873827DA2660DE8C008684D8 /* Screening_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D92660DE8C008684D8 /* Screening_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,7 @@
 		873827D22660DA98008684D8 /* MovieType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieType.swift; sourceTree = "<group>"; };
 		873827D42660DC85008684D8 /* DiscountConditionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountConditionType.swift; sourceTree = "<group>"; };
 		873827D72660DCE3008684D8 /* DiscountCondition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition_.swift; sourceTree = "<group>"; };
+		873827D92660DE8C008684D8 /* Screening_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				873827D22660DA98008684D8 /* MovieType.swift */,
 				873827D42660DC85008684D8 /* DiscountConditionType.swift */,
 				873827D72660DCE3008684D8 /* DiscountCondition_.swift */,
+				873827D92660DE8C008684D8 /* Screening_.swift */,
 			);
 			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */,
 				8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */,
 				8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */,
+				873827DA2660DE8C008684D8 /* Screening_.swift in Sources */,
 				873827D12660DA55008684D8 /* Movie_.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
 				8707BFBB2657AC62004B082E /* Money.swift in Sources */,
