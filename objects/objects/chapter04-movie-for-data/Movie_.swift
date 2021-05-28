@@ -18,12 +18,12 @@ import Foundation
 class Movie_ {
     private let title: String
     private let runningTime: DateInterval
-    private let fee: Money
+    private var fee: Money
     private var discountConditions: [DiscountCondition]
 
-    private let movieType: MovieType
-    private let discountAmount: Money
-    private let discountPercent: Double
+    private var movieType: MovieType
+    private var discountAmount: Money
+    private var discountPercent: Double
 
     init(title: String, runningTime: DateInterval, fee: Money, discountConditions: [DiscountCondition],
          movieType: MovieType, discountAmount: Money, discountPercent: Double) {
@@ -34,6 +34,46 @@ class Movie_ {
 
         self.movieType = movieType
         self.discountAmount = discountAmount
+        self.discountPercent = discountPercent
+    }
+
+    func getMovieType() -> MovieType {
+        return movieType
+    }
+
+    func setMovieType(_ movieType: MovieType) {
+        self.movieType = movieType
+    }
+
+    func getFee() -> Money {
+        return fee
+    }
+
+    func setFee(_ fee: Money) {
+        self.fee = fee
+    }
+
+    func getDiscountConditions() -> [DiscountCondition] {
+        return discountConditions
+    }
+
+    func setDiscountConditions(_ discountConditions: [DiscountCondition]) {
+        self.discountConditions = discountConditions
+    }
+
+    func getDiscountAmount() -> Money {
+        return discountAmount
+    }
+
+    func setDiscountAmount(_ discountAmount: Money) {
+        self.discountAmount = discountAmount
+    }
+
+    func getDiscountPercent() -> Double {
+        return discountPercent
+    }
+
+    func setDiscountPercent(_ discountPercent: Double) {
         self.discountPercent = discountPercent
     }
 }
