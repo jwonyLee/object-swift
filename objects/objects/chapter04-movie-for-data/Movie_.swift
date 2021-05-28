@@ -41,39 +41,50 @@ class Movie_ {
         return movieType
     }
 
-    func setMovieType(_ movieType: MovieType) {
-        self.movieType = movieType
+    func calculateAmountDiscountedFee() throws -> Money {
+        if movieType != MovieType.amountDiscount {
+            throw MovieSystemError.IllegalArgumentException
+        }
+
+        return fee.minus(amount: discountAmount)
     }
 
-    func getFee() -> Money {
+    func calculatePercentDiscountedFee() throws -> Money {
+        if movieType != MovieType.percentDiscount {
+            throw MovieSystemError.IllegalArgumentException
+        }
+
+        return fee.minus(amount: fee.times(percent: discountPercent))
+    }
+
+    func calculateNoneDiscountedFee() throws -> Money {
+        if movieType != MovieType.noneDiscount {
+            throw MovieSystemError.IllegalArgumentException
+        }
+
         return fee
     }
 
-    func setFee(_ fee: Money) {
-        self.fee = fee
-    }
-
-    func getDiscountConditions() -> [DiscountCondition_] {
-        return discountConditions
-    }
-
-    func setDiscountConditions(_ discountConditions: [DiscountCondition_]) {
-        self.discountConditions = discountConditions
-    }
-
-    func getDiscountAmount() -> Money {
-        return discountAmount
-    }
-
-    func setDiscountAmount(_ discountAmount: Money) {
-        self.discountAmount = discountAmount
-    }
-
-    func getDiscountPercent() -> Double {
-        return discountPercent
-    }
-
-    func setDiscountPercent(_ discountPercent: Double) {
-        self.discountPercent = discountPercent
+    func isDiscountable(whenScreened: Date, sequence: Int) -> Bool {
+        for condition in discountConditions {
+            if condition.getType() == DiscountConditionType.period {
+                do {
+                    if try condition.isDiscountable(dayOfWeek: whenScreened.getDayOfWeek(), time: whenScreened) {
+                        return true
+                    }
+                } catch {
+                    print("The movie type is not right.")
+                }
+            } else {
+                do {
+                    if try condition.isDiscountable(sequence: sequence) {
+                        return true
+                    }
+                } catch {
+                    print("The movie type is not right.")
+                }
+            }
+        }
+        return false
     }
 }

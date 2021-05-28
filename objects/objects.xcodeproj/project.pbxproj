@@ -38,6 +38,7 @@
 		873827E02660E146008684D8 /* ReservationAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DF2660E146008684D8 /* ReservationAgency.swift */; };
 		873827E22660E7A8008684D8 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E12660E7A8008684D8 /* Rectangle.swift */; };
 		873827E62660FE52008684D8 /* AnyClass_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E52660FE52008684D8 /* AnyClass_.swift */; };
+		873827E826610272008684D8 /* MovieSystemError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E726610272008684D8 /* MovieSystemError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		873827DF2660E146008684D8 /* ReservationAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationAgency.swift; sourceTree = "<group>"; };
 		873827E12660E7A8008684D8 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		873827E52660FE52008684D8 /* AnyClass_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyClass_.swift; sourceTree = "<group>"; };
+		873827E726610272008684D8 /* MovieSystemError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSystemError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				873827DF2660E146008684D8 /* ReservationAgency.swift */,
 				873827E12660E7A8008684D8 /* Rectangle.swift */,
 				873827E52660FE52008684D8 /* AnyClass_.swift */,
+				873827E726610272008684D8 /* MovieSystemError.swift */,
 			);
 			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873827E826610272008684D8 /* MovieSystemError.swift in Sources */,
 				8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */,
 				8707BFB92657A9B7004B082E /* Screening.swift in Sources */,
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
