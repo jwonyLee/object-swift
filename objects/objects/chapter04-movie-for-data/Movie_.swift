@@ -19,13 +19,13 @@ class Movie_ {
     private let title: String
     private let runningTime: DateInterval
     private var fee: Money
-    private var discountConditions: [DiscountCondition]
+    private var discountConditions: [DiscountCondition_]
 
     private var movieType: MovieType
     private var discountAmount: Money
     private var discountPercent: Double
 
-    init(title: String, runningTime: DateInterval, fee: Money, discountConditions: [DiscountCondition],
+    init(title: String, runningTime: DateInterval, fee: Money, discountConditions: [DiscountCondition_],
          movieType: MovieType, discountAmount: Money, discountPercent: Double) {
         self.title = title
         self.runningTime = runningTime
@@ -53,11 +53,11 @@ class Movie_ {
         self.fee = fee
     }
 
-    func getDiscountConditions() -> [DiscountCondition] {
+    func getDiscountConditions() -> [DiscountCondition_] {
         return discountConditions
     }
 
-    func setDiscountConditions(_ discountConditions: [DiscountCondition]) {
+    func setDiscountConditions(_ discountConditions: [DiscountCondition_]) {
         self.discountConditions = discountConditions
     }
 
