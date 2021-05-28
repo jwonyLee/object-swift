@@ -31,6 +31,7 @@
 		873827D12660DA55008684D8 /* Movie_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D02660DA55008684D8 /* Movie_.swift */; };
 		873827D32660DA98008684D8 /* MovieType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D22660DA98008684D8 /* MovieType.swift */; };
 		873827D52660DC85008684D8 /* DiscountConditionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D42660DC85008684D8 /* DiscountConditionType.swift */; };
+		873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D72660DCE3008684D8 /* DiscountCondition_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		873827D02660DA55008684D8 /* Movie_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_.swift; sourceTree = "<group>"; };
 		873827D22660DA98008684D8 /* MovieType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieType.swift; sourceTree = "<group>"; };
 		873827D42660DC85008684D8 /* DiscountConditionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountConditionType.swift; sourceTree = "<group>"; };
+		873827D72660DCE3008684D8 /* DiscountCondition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				873827D02660DA55008684D8 /* Movie_.swift */,
 				873827D22660DA98008684D8 /* MovieType.swift */,
 				873827D42660DC85008684D8 /* DiscountConditionType.swift */,
+				873827D72660DCE3008684D8 /* DiscountCondition_.swift */,
 			);
 			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
 				8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */,
+				873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */,
 				873827D32660DA98008684D8 /* MovieType.swift in Sources */,
 				8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
