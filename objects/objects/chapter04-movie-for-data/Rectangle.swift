@@ -58,4 +58,9 @@ class Rectangle {
     func setBottom(_ bottom: Int) {
         self.bottom = bottom
     }
+
+    func enlarge(multiple: Int) {
+        right *= multiple
+        bottom *= multiple
+    }
 }
