@@ -24,27 +24,33 @@ class Screening_ {
         self.whenScreened = whenScreened
     }
 
-    func getMovie() -> Movie_ {
-        return movie
-    }
+    func calculateFee(audienceCount: Int) -> Money {
+        switch movie.getMovieType() {
+        case .amountDiscount:
+            if movie.isDiscountable(whenScreened: whenScreened, sequence: sequence) {
+                do {
+                    return try movie.calculateAmountDiscountedFee().times(percent: Double(audienceCount))
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+        case .percentDiscount:
+            if movie.isDiscountable(whenScreened: whenScreened, sequence: sequence) {
+                do {
+                    return try movie.calculatePercentDiscountedFee().times(percent: Double(audienceCount))
+                } catch {
+                    print(error.localizedDescription)
+                }
+            }
+        case .noneDiscount:
+            do {
+                return try movie.calculateNoneDiscountedFee().times(percent: Double(audienceCount))
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
 
-    func setMovie(_ movie: Movie_) {
-        self.movie = movie
-    }
 
-    func getSequence() -> Int {
-        return sequence
-    }
-
-    func setSequence(_ sequence: Int) {
-        self.sequence = sequence
-    }
-
-    func getWhenScreened() -> Date {
-        return whenScreened
-    }
-
-    func setWhenScreened(_ whenScreened: Date) {
-        self.whenScreened = whenScreened
+        return try! movie.calculateNoneDiscountedFee().times(percent: Double(audienceCount))
     }
 }
