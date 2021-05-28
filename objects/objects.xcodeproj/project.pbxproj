@@ -28,6 +28,7 @@
 		8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */; };
 		8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */; };
 		8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */; };
+		873827D12660DA55008684D8 /* Movie_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D02660DA55008684D8 /* Movie_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoneDiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDiscountPolicy.swift; sourceTree = "<group>"; };
+		873827D02660DA55008684D8 /* Movie_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
+				873827CF2660DA49008684D8 /* chapter04-movie-for-data */,
 				8707BFB72657A84F004B082E /* chapter02-movie */,
 				8707BFB62657A7DE004B082E /* chapter01-ticket */,
 			);
@@ -136,6 +139,14 @@
 				8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */,
 			);
 			path = "chapter02-movie";
+			sourceTree = "<group>";
+		};
+		873827CF2660DA49008684D8 /* chapter04-movie-for-data */ = {
+			isa = PBXGroup;
+			children = (
+				873827D02660DA55008684D8 /* Movie_.swift */,
+			);
+			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */,
 				8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */,
 				8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */,
+				873827D12660DA55008684D8 /* Movie_.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
 				8707BFBB2657AC62004B082E /* Money.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
