@@ -15,17 +15,17 @@ import Foundation
  - fee: 기본 요금
  - discountPolicy: 할인 정책
  */
-class Movie_ {
+class Movie {
     private let title: String
     private let runningTime: DateInterval
     private var fee: Money
-    private var discountConditions: [DiscountCondition_]
+    private var discountConditions: [DiscountCondition]
 
     private var movieType: MovieType
     private var discountAmount: Money
     private var discountPercent: Double
 
-    init(title: String, runningTime: DateInterval, fee: Money, discountConditions: [DiscountCondition_],
+    init(title: String, runningTime: DateInterval, fee: Money, discountConditions: [DiscountCondition],
          movieType: MovieType, discountAmount: Money, discountPercent: Double) {
         self.title = title
         self.runningTime = runningTime

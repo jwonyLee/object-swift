@@ -14,13 +14,13 @@ import Foundation
  - fee: 예매 요금
  - audienceCount: 인원 수
  */
-class Reservation_ {
+class Reservation {
     private var customer: Customer
-    private var screening: Screening_
+    private var screening: Screening
     private var fee: Money
     private var audienceCount: Int
 
-    init(customer: Customer, screening: Screening_, fee: Money, audienceCount: Int) {
+    init(customer: Customer, screening: Screening, fee: Money, audienceCount: Int) {
         self.customer = customer
         self.screening = screening
         self.fee = fee
@@ -35,11 +35,11 @@ class Reservation_ {
         self.customer = customer
     }
 
-    func getScreening() -> Screening_ {
+    func getScreening() -> Screening {
         return screening
     }
 
-    func setScreening(_ screening: Screening_) {
+    func setScreening(_ screening: Screening) {
         self.screening = screening
     }
 

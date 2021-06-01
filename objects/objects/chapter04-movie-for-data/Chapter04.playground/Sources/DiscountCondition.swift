@@ -15,7 +15,7 @@ import Foundation
  - startTime: 시작 시간
  - endTime: 종료 시간
  */
-class DiscountCondition_ {
+class DiscountCondition {
     private var type: DiscountConditionType
 
     private var sequence: Int
