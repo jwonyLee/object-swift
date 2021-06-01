@@ -42,8 +42,8 @@ class Movie {
     /// 할인 여부 판단
     private func isDiscountable(_ screening: Screening) -> Bool {
         return discountConditions
-            .map { $0.isSatisfiedBy(screening) }
-            .filter { $0.count < 1 }
+            .map { $0.isSatisfiedBy(screening: screening) }
+            .count >= 1
     }
 
     // 할인 요금 계산
