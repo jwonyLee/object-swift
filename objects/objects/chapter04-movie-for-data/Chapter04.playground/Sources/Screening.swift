@@ -13,12 +13,12 @@ import Foundation
  - sequence: 순번
  - whenScreened: 상영 시작 시간
  */
-class Screening_ {
-    private var movie: Movie_
+class Screening {
+    private var movie: Movie
     private var sequence: Int
     private var whenScreened: Date
 
-    init(movie: Movie_, sequence: Int, whenScreened: Date) {
+    init(movie: Movie, sequence: Int, whenScreened: Date) {
         self.movie = movie
         self.sequence = sequence
         self.whenScreened = whenScreened
