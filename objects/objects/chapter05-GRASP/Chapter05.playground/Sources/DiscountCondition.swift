@@ -28,7 +28,7 @@ class DiscountCondition {
             return isSatisfiedByPeriod(screening: screening)
         }
 
-        return isSatisfiedBySequence(screening: screnning)
+        return isSatisfiedBySequence(screening: screening)
     }
 
     private func isSatisfiedByPeriod(screening: Screening) -> Bool {
