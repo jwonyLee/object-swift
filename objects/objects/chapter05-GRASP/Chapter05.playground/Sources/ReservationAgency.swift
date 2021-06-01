@@ -12,23 +12,6 @@ class ReservationAgency {
             .count >= 1
     }
 
-    private func isDiscountable(condition: DiscountCondition, screening: Screening) -> Bool {
-        if condition.getType() == DiscountConditionType.period {
-            return isSatisfiedByPeriod(condition: condition, screening: screening)
-        }
-        return isSatisfiedBySequence(condition: condition, screening: screening)
-    }
-
-    private func isSatisfiedByPeriod(condition: DiscountCondition, screening: Screening) -> Bool {
-        return screening.getWhenScreened().getDayOfWeek() == condition.getDayOfWeek() &&
-            condition.getStartTime() <= screening.getWhenScreened() &&
-            condition.getEndTime() >= screening.getWhenScreened()
-    }
-
-    private func isSatisfiedBySequence(condition: DiscountCondition, screening: Screening) -> Bool {
-        return condition.getSequence() == screening.getSequence()
-    }
-
     private func calculateFee(screening: Screening, discountable: Bool, audienceCount: Int) -> Money {
         if discountable {
             return screening.getMovie().getFee()
