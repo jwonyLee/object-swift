@@ -40,4 +40,8 @@ class Movie {
     func calculateDiscountAmount() -> Money {
         fatalError("This method must be overridden")
     }
+
+    func getFee() -> Money {
+        return fee
+    }
 }
