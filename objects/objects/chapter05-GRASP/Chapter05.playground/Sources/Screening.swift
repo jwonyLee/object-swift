@@ -26,4 +26,12 @@ class Screening {
     func calculateFee(audienceCount: Int) -> Money {
         return movie.calculateMovieFee(screeening: self).times(percent: Double(audienceCount))
     }
+
+    func getWhenScreened() -> Date {
+        return whenScreened
+    }
+
+    func getSequence() -> Int {
+        return sequence
+    }
 }
