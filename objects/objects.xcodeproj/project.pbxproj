@@ -28,6 +28,17 @@
 		8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */; };
 		8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */; };
 		8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */; };
+		873827D12660DA55008684D8 /* Movie_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D02660DA55008684D8 /* Movie_.swift */; };
+		873827D32660DA98008684D8 /* MovieType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D22660DA98008684D8 /* MovieType.swift */; };
+		873827D52660DC85008684D8 /* DiscountConditionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D42660DC85008684D8 /* DiscountConditionType.swift */; };
+		873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D72660DCE3008684D8 /* DiscountCondition_.swift */; };
+		873827DA2660DE8C008684D8 /* Screening_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827D92660DE8C008684D8 /* Screening_.swift */; };
+		873827DC2660DF6A008684D8 /* Reservation_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DB2660DF6A008684D8 /* Reservation_.swift */; };
+		873827DE2660E056008684D8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DD2660E056008684D8 /* Customer.swift */; };
+		873827E02660E146008684D8 /* ReservationAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827DF2660E146008684D8 /* ReservationAgency.swift */; };
+		873827E22660E7A8008684D8 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E12660E7A8008684D8 /* Rectangle.swift */; };
+		873827E62660FE52008684D8 /* AnyClass_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E52660FE52008684D8 /* AnyClass_.swift */; };
+		873827E826610272008684D8 /* MovieSystemError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873827E726610272008684D8 /* MovieSystemError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +76,17 @@
 		8707BFCE2657C8D7004B082E /* PercentDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentDiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFD02657CE11004B082E /* NoneDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoneDiscountPolicy.swift; sourceTree = "<group>"; };
 		8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDiscountPolicy.swift; sourceTree = "<group>"; };
+		873827D02660DA55008684D8 /* Movie_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_.swift; sourceTree = "<group>"; };
+		873827D22660DA98008684D8 /* MovieType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieType.swift; sourceTree = "<group>"; };
+		873827D42660DC85008684D8 /* DiscountConditionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountConditionType.swift; sourceTree = "<group>"; };
+		873827D72660DCE3008684D8 /* DiscountCondition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCondition_.swift; sourceTree = "<group>"; };
+		873827D92660DE8C008684D8 /* Screening_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screening_.swift; sourceTree = "<group>"; };
+		873827DB2660DF6A008684D8 /* Reservation_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation_.swift; sourceTree = "<group>"; };
+		873827DD2660E056008684D8 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		873827DF2660E146008684D8 /* ReservationAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationAgency.swift; sourceTree = "<group>"; };
+		873827E12660E7A8008684D8 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		873827E52660FE52008684D8 /* AnyClass_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyClass_.swift; sourceTree = "<group>"; };
+		873827E726610272008684D8 /* MovieSystemError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSystemError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,7 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
+				873827CF2660DA49008684D8 /* chapter04-movie-for-data */,
 				8707BFB72657A84F004B082E /* chapter02-movie */,
 				8707BFB62657A7DE004B082E /* chapter01-ticket */,
 			);
@@ -136,6 +159,24 @@
 				8707BFD22657D217004B082E /* DefaultDiscountPolicy.swift */,
 			);
 			path = "chapter02-movie";
+			sourceTree = "<group>";
+		};
+		873827CF2660DA49008684D8 /* chapter04-movie-for-data */ = {
+			isa = PBXGroup;
+			children = (
+				873827D02660DA55008684D8 /* Movie_.swift */,
+				873827D22660DA98008684D8 /* MovieType.swift */,
+				873827D42660DC85008684D8 /* DiscountConditionType.swift */,
+				873827D72660DCE3008684D8 /* DiscountCondition_.swift */,
+				873827D92660DE8C008684D8 /* Screening_.swift */,
+				873827DB2660DF6A008684D8 /* Reservation_.swift */,
+				873827DD2660E056008684D8 /* Customer.swift */,
+				873827DF2660E146008684D8 /* ReservationAgency.swift */,
+				873827E12660E7A8008684D8 /* Rectangle.swift */,
+				873827E52660FE52008684D8 /* AnyClass_.swift */,
+				873827E726610272008684D8 /* MovieSystemError.swift */,
+			);
+			path = "chapter04-movie-for-data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,22 +236,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873827E826610272008684D8 /* MovieSystemError.swift in Sources */,
 				8707BFD12657CE11004B082E /* NoneDiscountPolicy.swift in Sources */,
 				8707BFB92657A9B7004B082E /* Screening.swift in Sources */,
 				8707BFA926579388004B082E /* Invitation.swift in Sources */,
 				8707BFCF2657C8D7004B082E /* PercentDiscountPolicy.swift in Sources */,
 				8707BFC32657BFBC004B082E /* DiscountCondition.swift in Sources */,
 				8707BFBD2657BA3E004B082E /* Reservation.swift in Sources */,
+				873827DA2660DE8C008684D8 /* Screening_.swift in Sources */,
+				873827D12660DA55008684D8 /* Movie_.swift in Sources */,
 				8707BFAB265794A8004B082E /* Ticket.swift in Sources */,
 				8707BFBB2657AC62004B082E /* Money.swift in Sources */,
 				8707BFAF26579732004B082E /* Audience.swift in Sources */,
 				8707BFAD26579541004B082E /* Bag.swift in Sources */,
+				873827E02660E146008684D8 /* ReservationAgency.swift in Sources */,
 				8707BFC72657C129004B082E /* PeriodCondition.swift in Sources */,
+				873827D82660DCE3008684D8 /* DiscountCondition_.swift in Sources */,
+				873827E22660E7A8008684D8 /* Rectangle.swift in Sources */,
+				873827D32660DA98008684D8 /* MovieType.swift in Sources */,
+				873827E62660FE52008684D8 /* AnyClass_.swift in Sources */,
+				873827DE2660E056008684D8 /* Customer.swift in Sources */,
 				8707BFC92657C3E1004B082E /* DayOfWeek.swift in Sources */,
 				8707BFB526579A42004B082E /* Theater.swift in Sources */,
 				8707BFCB2657C42F004B082E /* Extension+.swift in Sources */,
+				873827D52660DC85008684D8 /* DiscountConditionType.swift in Sources */,
 				8707BFCD2657C6B2004B082E /* AmountDiscountPolicy.swift in Sources */,
 				8707BFC12657BC81004B082E /* DiscountPolicy.swift in Sources */,
+				873827DC2660DF6A008684D8 /* Reservation_.swift in Sources */,
 				8707BFD32657D217004B082E /* DefaultDiscountPolicy.swift in Sources */,
 				8707BFC52657C099004B082E /* SequenceCondition.swift in Sources */,
 				8707BFB1265797BC004B082E /* TicketOffice.swift in Sources */,
