@@ -33,7 +33,7 @@ class Movie {
     /// 영화 가격을 계산하라
     func calculateMovieFee(screeening: Screening) -> Money {
         if isDiscountable(screeening) {
-            return fee.minus(calculateDiscountAmount())
+            return fee.minus(amount: calculateDiscountAmount())
         }
 
         return fee
@@ -41,6 +41,32 @@ class Movie {
 
     /// 할인 여부 판단
     private func isDiscountable(_ screening: Screening) -> Bool {
-        return true
+        return discountConditions
+            .map { $0.isSatisfiedBy(screening) }
+            .filter { $0.count < 1 }
+    }
+
+    // 할인 요금 계산
+    private func calculateDiscountAmount() -> Money {
+        switch movieType {
+        case .amountDiscount:
+            return calculateAmountDiscountAmount()
+        case .percentDiscount:
+            return calculatePercentDiscountAmount()
+        case .noneDiscount:
+            return calculateNoneDiscountAmount()
+        }
+    }
+
+    private func calculateAmountDiscountAmount() -> Money {
+        return discountAmount
+    }
+
+    private func calculatePercentDiscountAmount() -> Money {
+        return fee.times(percent: discountPercent)
+    }
+
+    private func calculateNoneDiscountAmount() -> Money {
+        return Money.zero
     }
 }

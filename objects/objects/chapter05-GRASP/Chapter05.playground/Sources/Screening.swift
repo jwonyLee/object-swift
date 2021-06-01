@@ -11,13 +11,19 @@ class Screening {
     private let sequence: Int
     private let whenScreened: Date
 
+    init(movie: Movie, sequence: Int, whenScreened: Date) {
+        self.movie = movie
+        self.sequence = sequence
+        self.whenScreened = whenScreened
+    }
+
     /// 예매하라
     func reserve(customer: Customer, audienceCount: Int) -> Reservation {
         return Reservation(customer: customer, screening: self, fee: calculateFee(audienceCount), audienceCount: audienceCount)
     }
 
     /// 가격을 계산하라
-    func calculateFee(audienceCount: Int) {
-        return movie.calculateMovieFee(self).times(audienceCount)
+    func calculateFee(audienceCount: Int) -> Money {
+        return movie.calculateMovieFee(screeening: self).times(percent: Double(audienceCount))
     }
 }
