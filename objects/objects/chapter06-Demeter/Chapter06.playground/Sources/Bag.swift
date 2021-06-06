@@ -27,23 +27,24 @@ class Bag {
         self.init(invitation: nil, amount: amount)
     }
 
+    func setTicket(_ ticket: Ticket) -> Double {
+        if hasInvitation() {
+            self.ticket = ticket
+            return 0
+        } else {
+            self.ticket = ticket
+            minusAmount(ticket.getFee())
+            return ticket.getFee()
+        }
+    }
+
     /// 초대장의 보유 여부를 판단하는 메서드
-    func hasInvitation() -> Bool {
+    private func hasInvitation() -> Bool {
         return invitation != nil
     }
 
-    /// 초대장을 티켓으로 교환하는 메서드
-    func setTicket(_ ticket: Ticket) {
-        self.ticket = ticket
-    }
-
     /// 현금을 감소시키는 메서드
-    func minusAmount(_ amount: Double) {
+    private func minusAmount(_ amount: Double) {
         self.amount -= amount
-    }
-
-    /// 현금을 증가시키는 메서드
-    func plusAmount(_ amount: Double) {
-        self.amount += amount
     }
 }
