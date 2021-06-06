@@ -23,6 +23,7 @@
 		87A2A7D22665C7B400AB1647 /* Chapter01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter01.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2A7D32665C7CB00AB1647 /* Chapter02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter02.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2A7D52665C81200AB1647 /* Chapter04.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter04.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2A7D82665CA2D00AB1647 /* Chapter05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter05.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
+				87A2A7D72665CA2000AB1647 /* chapter05-GRASP */,
 				873827CF2660DA49008684D8 /* chapter04-movie-for-data */,
 				8707BFB72657A84F004B082E /* chapter02-movie */,
 				8707BFB62657A7DE004B082E /* chapter01-ticket */,
@@ -84,6 +86,14 @@
 				87A2A7D52665C81200AB1647 /* Chapter04.playground */,
 			);
 			path = "chapter04-movie-for-data";
+			sourceTree = "<group>";
+		};
+		87A2A7D72665CA2000AB1647 /* chapter05-GRASP */ = {
+			isa = PBXGroup;
+			children = (
+				87A2A7D82665CA2D00AB1647 /* Chapter05.playground */,
+			);
+			path = "chapter05-GRASP";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
