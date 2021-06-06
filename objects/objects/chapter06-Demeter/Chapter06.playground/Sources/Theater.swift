@@ -19,6 +19,6 @@ class Theater {
     }
 
     func enter(audience: Audience) {
-        ticketSeller.setTicket(audience: audience)
+        ticketSeller.sellTo(audience: audience)
     }
 }

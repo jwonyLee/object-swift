@@ -22,7 +22,7 @@ class TicketSeller {
         return ticketOffice
     }
 
-    func setTicket(audience: Audience) {
-        ticketOffice.plusAmount(audience.setTicket(ticketOffice.getTicket()))
+    func sellTo(audience: Audience) {
+        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()))
     }
 }

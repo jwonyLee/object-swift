@@ -27,7 +27,7 @@ class Bag {
         self.init(invitation: nil, amount: amount)
     }
 
-    func setTicket(_ ticket: Ticket) -> Double {
+    func hold(_ ticket: Ticket) -> Double {
         if hasInvitation() {
             self.ticket = ticket
             return 0

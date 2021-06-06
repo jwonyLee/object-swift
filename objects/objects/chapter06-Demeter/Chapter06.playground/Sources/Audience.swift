@@ -22,7 +22,7 @@ class Audience {
         return bag
     }
 
-    func setTicket(_ ticket: Ticket) -> Double {
-        return bag.setTicket(ticket)
+    func buy(_ ticket: Ticket) -> Double {
+        return bag.hold(ticket)
     }
 }
