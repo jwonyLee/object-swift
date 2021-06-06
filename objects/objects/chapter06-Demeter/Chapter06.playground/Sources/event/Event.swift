@@ -6,12 +6,12 @@ import Foundation
  - from: 시작 일시
  - duration: 소요 시간
  */
-class Event {
+public class Event {
     private let subject: String
     private let from: Date
     private let duration: TimeInterval
 
-    init(subject: String, from: Date, duration: TimeInterval) {
+    public init(subject: String, from: Date, duration: TimeInterval) {
         self.subject = subject
         self.from = from
         self.duration = duration

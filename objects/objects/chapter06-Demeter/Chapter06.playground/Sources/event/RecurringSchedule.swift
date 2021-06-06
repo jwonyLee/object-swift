@@ -7,28 +7,28 @@ import Foundation
  - from: 시작 시간
  - duration: 기간
  */
-class RecurringSchedule {
+public class RecurringSchedule {
     private let subject: String
     private let dayOfWeek: DayOfWeek
     private let from: Date
     private let duration: TimeInterval
 
-    init(subject: String, dayOfWeek: DayOfWeek, from: Date, duration: TimeInterval) {
+    public init(subject: String, dayOfWeek: DayOfWeek, from: Date, duration: TimeInterval) {
         self.subject = subject
         self.dayOfWeek = dayOfWeek
         self.from = from
         self.duration = duration
     }
 
-    func getDayOfWeek() -> DayOfWeek {
+    public func getDayOfWeek() -> DayOfWeek {
         return dayOfWeek
     }
 
-    func getFrom() -> Date {
+    public func getFrom() -> Date {
         return from
     }
 
-    func getDuration() -> TimeInterval {
+    public func getDuration() -> TimeInterval {
         return duration
     }
 }
