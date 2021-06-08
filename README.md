@@ -10,8 +10,8 @@
 2. [객체지향 프로그래밍](https://github.com/jwonyLee/objects-swift/pull/2)
 3. 역할, 책임, 협력
 4. [설계 품질과 트레이드오프](https://github.com/jwonyLee/objects-swift/pull/3)
-5. [책임 할당하기]((https://github.com/jwonyLee/objects-swift/pull/4)
-6. 메시지와 인터페이스
+5. [책임 할당하기](https://github.com/jwonyLee/objects-swift/pull/4)
+6. [메시지와 인터페이스](https://github.com/jwonyLee/objects-swift/pull/5)
 7. 객체 분해
 8. 의존성 관리하기
 9. 유연한 설계
