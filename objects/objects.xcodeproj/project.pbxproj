@@ -10,6 +10,7 @@
 		87AA3D3D2674782E0046FDB8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D3C2674782E0046FDB8 /* main.swift */; };
 		87AA3D3F26748DB90046FDB8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D3E26748DB90046FDB8 /* Employee.swift */; };
 		87AA3D4126748EF30046FDB8 /* Employees-module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D4026748EF30046FDB8 /* Employees-module.swift */; };
+		87AA3D432674C76B0046FDB8 /* SalariedEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D422674C76B0046FDB8 /* SalariedEmployee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		87AA3D3C2674782E0046FDB8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		87AA3D3E26748DB90046FDB8 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		87AA3D4026748EF30046FDB8 /* Employees-module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employees-module.swift"; sourceTree = "<group>"; };
+		87AA3D422674C76B0046FDB8 /* SalariedEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariedEmployee.swift; sourceTree = "<group>"; };
 		87FCA48C266C6747006650A3 /* Chapter06.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter06.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				87AA3D3C2674782E0046FDB8 /* main.swift */,
 				87AA3D3E26748DB90046FDB8 /* Employee.swift */,
 				87AA3D4026748EF30046FDB8 /* Employees-module.swift */,
+				87AA3D422674C76B0046FDB8 /* SalariedEmployee.swift */,
 			);
 			path = "chapter07-pay";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				87AA3D4126748EF30046FDB8 /* Employees-module.swift in Sources */,
 				87AA3D3D2674782E0046FDB8 /* main.swift in Sources */,
+				87AA3D432674C76B0046FDB8 /* SalariedEmployee.swift in Sources */,
 				87AA3D3F26748DB90046FDB8 /* Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
