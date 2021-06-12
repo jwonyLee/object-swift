@@ -31,4 +31,13 @@ func describeResult(name: String, pay: Double) -> String {
     return "이름: \(name), 급여: \(pay)"
 }
 
+/// 회사에 속한 모든 직원들의 기본급의 총합을 구한다.
+func sumOfBasePays() -> Int {
+    var result = 0
+    for basePay in basePays {
+        result += basePay
+    }
+    return result
+}
+
 main("직원C")
