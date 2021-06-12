@@ -5,8 +5,22 @@ let employees = ["직원A", "직원B", "직원C"]
 /// 기본급
 let basePays = [400, 300, 250]
 
+enum Operations {
+    case pay
+    case basePays
+}
+
 /// 직원의 급여를 계산한다
-func main(_ name: String) {
+func main(operation: Operations, name: String = "") {
+    switch operation {
+    case .pay:
+        calculatePay(name: name)
+    case .basePays:
+        sumOfBasePays()
+    }
+}
+
+func calculatePay(name: String) {
     let taxRate = getTaxRate()
     let pay = calculatePayFor(name: name, taxRate: taxRate)
     print(describeResult(name: name, pay: pay))
@@ -32,12 +46,13 @@ func describeResult(name: String, pay: Double) -> String {
 }
 
 /// 회사에 속한 모든 직원들의 기본급의 총합을 구한다.
-func sumOfBasePays() -> Int {
+func sumOfBasePays() {
     var result = 0
     for basePay in basePays {
         result += basePay
     }
-    return result
+    print(result)
 }
 
-main("직원C")
+main(operation: .basePays)
+main(operation: .pay, name: "직원A")
