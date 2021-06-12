@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87AA3D3D2674782E0046FDB8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D3C2674782E0046FDB8 /* main.swift */; };
+		87AA3D3F26748DB90046FDB8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D3E26748DB90046FDB8 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		87A2A7D52665C81200AB1647 /* Chapter04.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter04.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2A7D82665CA2D00AB1647 /* Chapter05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter05.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87AA3D3C2674782E0046FDB8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		87AA3D3E26748DB90046FDB8 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		87FCA48C266C6747006650A3 /* Chapter06.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter06.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				87AA3D3C2674782E0046FDB8 /* main.swift */,
+				87AA3D3E26748DB90046FDB8 /* Employee.swift */,
 			);
 			path = "chapter07-pay";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87AA3D3D2674782E0046FDB8 /* main.swift in Sources */,
+				87AA3D3F26748DB90046FDB8 /* Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
