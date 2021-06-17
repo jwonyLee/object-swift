@@ -6,6 +6,14 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87AA3D3D2674782E0046FDB8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D3C2674782E0046FDB8 /* main.swift */; };
+		87AA3D3F26748DB90046FDB8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D3E26748DB90046FDB8 /* Employee.swift */; };
+		87AA3D4126748EF30046FDB8 /* Employees-module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D4026748EF30046FDB8 /* Employees-module.swift */; };
+		87AA3D432674C76B0046FDB8 /* SalariedEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D422674C76B0046FDB8 /* SalariedEmployee.swift */; };
+		87AA3D452674C7D90046FDB8 /* HourlyEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA3D442674C7D90046FDB8 /* HourlyEmployee.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8707BF9C265792EE004B082E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,6 +32,11 @@
 		87A2A7D32665C7CB00AB1647 /* Chapter02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter02.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2A7D52665C81200AB1647 /* Chapter04.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter04.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2A7D82665CA2D00AB1647 /* Chapter05.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter05.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87AA3D3C2674782E0046FDB8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		87AA3D3E26748DB90046FDB8 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		87AA3D4026748EF30046FDB8 /* Employees-module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employees-module.swift"; sourceTree = "<group>"; };
+		87AA3D422674C76B0046FDB8 /* SalariedEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalariedEmployee.swift; sourceTree = "<group>"; };
+		87AA3D442674C7D90046FDB8 /* HourlyEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyEmployee.swift; sourceTree = "<group>"; };
 		87FCA48C266C6747006650A3 /* Chapter06.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter06.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -57,6 +70,7 @@
 		8707BFA0265792EE004B082E /* objects */ = {
 			isa = PBXGroup;
 			children = (
+				87AA3D3A267471510046FDB8 /* chapter07-pay */,
 				87FCA48B266C66F1006650A3 /* chapter06-Demeter */,
 				87A2A7D72665CA2000AB1647 /* chapter05-GRASP */,
 				873827CF2660DA49008684D8 /* chapter04-movie-for-data */,
@@ -98,6 +112,18 @@
 			path = "chapter05-GRASP";
 			sourceTree = "<group>";
 		};
+		87AA3D3A267471510046FDB8 /* chapter07-pay */ = {
+			isa = PBXGroup;
+			children = (
+				87AA3D3C2674782E0046FDB8 /* main.swift */,
+				87AA3D3E26748DB90046FDB8 /* Employee.swift */,
+				87AA3D4026748EF30046FDB8 /* Employees-module.swift */,
+				87AA3D422674C76B0046FDB8 /* SalariedEmployee.swift */,
+				87AA3D442674C7D90046FDB8 /* HourlyEmployee.swift */,
+			);
+			path = "chapter07-pay";
+			sourceTree = "<group>";
+		};
 		87FCA48B266C66F1006650A3 /* chapter06-Demeter */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +163,7 @@
 				TargetAttributes = {
 					8707BF9D265792EE004B082E = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -163,6 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AA3D4126748EF30046FDB8 /* Employees-module.swift in Sources */,
+				87AA3D3D2674782E0046FDB8 /* main.swift in Sources */,
+				87AA3D432674C76B0046FDB8 /* SalariedEmployee.swift in Sources */,
+				87AA3D452674C7D90046FDB8 /* HourlyEmployee.swift in Sources */,
+				87AA3D3F26748DB90046FDB8 /* Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +319,17 @@
 		8707BFA6265792EE004B082E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F95C5R6HLY;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -298,9 +337,15 @@
 		8707BFA7265792EE004B082E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F95C5R6HLY;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
